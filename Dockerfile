@@ -18,6 +18,9 @@ RUN mkdir /home/ubuntu/challenge2
 RUN echo "password2" > /home/ubuntu/challenge2/challenge2
 #challenge2 ende#
 
+#challenge3 start#
+RUN echo "password3" > /home/ubuntu/challenge2/.challenge3
+#challenge3 ende#
 
 RUN service ssh start
 EXPOSE 22
