@@ -1,3 +1,8 @@
 #!/bin/bash
 
-echo "password4"
+FILE=/home/ubuntu/challenge5
+if [ -f "$FILE" ]; then
+    echo "password5"
+else
+  echo "password4"
+fi
