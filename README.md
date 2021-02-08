@@ -1,5 +1,11 @@
-# praktikum CTF
+# Praktikum CTF
+`challenges_with_scripts.txt` enhtält die Namen der Challenges mit Skripten. Ein Name pro Zeile. Trailing New Line.
 
+`py_to_bin.sh` kompiliert Python Skripte zu ausführbaren Binaries. Ausgabe in `/binary`
+
+`build.sh` kompiliert alle Skripte und baut das Docker Image.
+---
+# Challenges
 ## Challenge 1
 Das Passwort befindet sich in der Datei "challenge1" im Home-Verzeichnis.
 
