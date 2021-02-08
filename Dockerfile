@@ -1,4 +1,4 @@
-FROM nexus.in.fiduciagad.de:50004/library/ubuntu:latest
+FROM ubuntu:latest
 
 RUN yes | unminimize
 RUN apt update && apt install  openssh-server sudo man-db nano python -y
