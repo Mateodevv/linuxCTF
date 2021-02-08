@@ -15,7 +15,7 @@ RUN echo "password" > /home/ubuntu/challenge1
 
 #challenge2 start#
 RUN mkdir /home/ubuntu/challenge2
-RUN echo "password2" > /home/ubuntu/challenge2/challenge2
+RUN touch /home/ubuntu/challenge2/password2
 #challenge2 ende#
 
 #challenge3 start#
