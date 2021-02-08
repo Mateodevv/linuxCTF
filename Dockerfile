@@ -8,6 +8,10 @@ RUN  echo 'test:test' | chpasswd
 
 RUN useradd -rm -d /home/betreuer -s /bin/bash -g root -G sudo -u 1001 betreuer 
 RUN  echo 'betreuer:betreuer' | chpasswd
+#challenge1 start#
+RUN echo "password" > /home/ubuntu/challenge1
+#challenge1 ende#
+
 
 RUN service ssh start
 EXPOSE 22
