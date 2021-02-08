@@ -4,6 +4,7 @@
 `py_to_bin.sh` kompiliert Python Skripte zu ausführbaren Binaries. Ausgabe in `/binary`
 
 `build.sh` kompiliert alle Skripte und baut das Docker Image.
+
 ---
 # Challenges
 ## Challenge 1
