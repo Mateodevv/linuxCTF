@@ -15,3 +15,8 @@ Das Passwort befindet sich in der versteckten Datei im Unterverzeichnis "challen
 
 `man, cd, cat`
 
+## Challenge 4
+Die Datei "challenge4" ist ein ausführbares Skript. Sie gibt das Passwort aus.
+
+`man, sh`
+
