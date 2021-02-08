@@ -22,6 +22,11 @@ RUN touch /home/ubuntu/challenge2/password2
 RUN echo "password3" > /home/ubuntu/challenge2/.challenge3
 #challenge3 ende#
 
+#challenge4 start#
+COPY challenge4.sh /home/ubuntu/
+RUN chmod +rx /home/ubuntu/challenge4
+#challenge4 ende#
+
 RUN service ssh start
 EXPOSE 22
 
