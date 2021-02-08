@@ -13,5 +13,5 @@ Welchen Namen hat die Datei im Unterverzeichnis "challenge2"?
 ## Challenge 3
 Das Passwort befindet sich in der versteckten Datei im Unterverzeichnis "challenge2".
 
-`man, cd`
+`man, cd, cat`
 
