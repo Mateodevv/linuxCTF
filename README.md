@@ -8,7 +8,7 @@ Das Passwort befindet sich in der Datei "challenge1" im Home-Verzeichnis.
 ## Challenge 2
 Welchen Namen hat die Datei im Unterverzeichnis "challenge2"?
 
-`cd`
+`cd, ls`
 
 ## Challenge 3
 Das Passwort befindet sich in der versteckten Datei im Unterverzeichnis "challenge2".
