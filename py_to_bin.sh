@@ -9,6 +9,7 @@ gcc -o $1.o -c $1.c `python-config --cflags`
 gcc -o $1 $1.o `python-config --ldflags`
 
 chmod +rx $1
+mkdir ../binary
 cp $1 ../binary/
 cd ..
 rm -rf buildtmp
