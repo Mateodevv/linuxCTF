@@ -4,6 +4,12 @@
 `py_to_bin.sh` kompiliert Python Skripte zu ausführbaren Binaries. Ausgabe in `/binary`
 
 `build.sh` kompiliert alle Skripte und baut das Docker Image.
+# Container Ports
+
+## Linux Container
+
+Linux Container: http://85.214.193.94:1113/
+CTF'D: http://85.214.193.94:1114/
 
 ---
 # Challenges
