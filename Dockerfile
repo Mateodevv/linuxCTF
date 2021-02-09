@@ -33,6 +33,7 @@ RUN chmod +rx /home/ubuntu/challenge4
 
 #challenge7 start#
 COPY binary/challenge7 /home/ubuntu/challenge7
+RUN touch /home/ubuntu/challenge7.pw
 #challenge7 ende#
 
 #challenge8 start#
