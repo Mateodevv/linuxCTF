@@ -3,6 +3,7 @@
 echo "Building scripts into binaries"
 
 while read  p; do
+	echo $p
 	sh py_to_bin.sh $p
 done <challenges_with_scripts.txt
 
