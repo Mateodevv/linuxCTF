@@ -36,3 +36,8 @@ Das Programm aus Challenge 4 hat eine andere Ausgabe, wenn eine Datei mit dem Na
 Welche Ausgabe hat das Programm, wenn eine Datei "challenge6" im Homeverzeichnis existiert?
 
 `mv`
+
+## Challenge 7
+Wie lautet der Pfad der einzigen Datei mit einer Größe von 7872 Bytes in einem der Unterordner von "challenge7"?
+
+`man, find`
