@@ -55,5 +55,4 @@ Wie lautet der Pfad der einzigen Datei mit einer Größe von 7872 Bytes in einem
 ## Challenge 9
 Irgendwo auf dem Server liegt eine Datei, die dem User "betreuer" gehört und 21 Bytes groß ist. Sie enthält das Passwort.
 
-
 `man, find`
