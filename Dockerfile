@@ -34,7 +34,6 @@ RUN chmod +rx /home/ubuntu/challenge4
 
 #challenge7 start#
 COPY binary/challenge7 /home/ubuntu/challenge7
-RUN mkdir /home/ubuntu/challenge7.1
 #challenge7 ende#
 
 
