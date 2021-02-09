@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Building scripts into binaries"
+rm -f binary/*
 
 while read  p; do
 	echo $p

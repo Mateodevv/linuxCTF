@@ -32,8 +32,9 @@ RUN chmod +rx /home/ubuntu/challenge4
 #challenge6 ende#
 
 #challenge7 start#
-COPY binary/challenge7 /home/ubuntu/challenge7
-RUN touch /home/ubuntu/challenge7.pw
+RUN mkdir /home/ubuntu/ordner7
+COPY binary/challenge7 /home/ubuntu/ordner7/challenge7
+RUN touch /home/ubuntu/ordner7/challenge7.pw
 #challenge7 ende#
 
 #challenge8 start#
