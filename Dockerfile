@@ -23,10 +23,13 @@ RUN echo "password3" > /home/ubuntu/challenge2/.challenge3
 #challenge3 ende#
 
 #challenge4 start#
-
+#challenge5 start#
+#challenge6 start#
 COPY binary/challenge4 /home/ubuntu/
 RUN chmod +rx /home/ubuntu/challenge4
 #challenge4 ende#
+#challenge5 ende#
+#challenge6 ende#
 
 RUN service ssh start
 EXPOSE 22
