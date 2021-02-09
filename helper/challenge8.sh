@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ubuntu/challenge7
+cd /home/ubuntu/challenge8
 
 for i in {1..16}; do
 	mkdir folder$i

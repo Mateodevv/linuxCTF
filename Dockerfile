@@ -37,10 +37,10 @@ RUN touch /home/ubuntu/challenge7.pw
 #challenge7 ende#
 
 #challenge8 start#
-RUN mkdir /home/ubuntu/challenge7
-COPY helper/challenge7.sh /home/ubuntu/challenge7/
-RUN /bin/bash /home/ubuntu/challenge7/challenge7.sh
-RUN rm -f /home/ubuntu/challenge7/challenge7.sh
+RUN mkdir /home/ubuntu/challenge8
+COPY helper/challenge8.sh /home/ubuntu/challenge8/
+RUN /bin/bash /home/ubuntu/challenge8/challenge8.sh
+RUN rm -f /home/ubuntu/challenge8/challenge8.sh
 #challenge8 ende#
 
 #challenge9 start#
