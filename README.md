@@ -6,8 +6,6 @@
 `build.sh` kompiliert alle Skripte und baut das Docker Image.
 # Container Ports
 
-## Linux Container
-
 Linux Container: http://85.214.193.94:1113/
 
 CTF'D: http://85.214.193.94:1114/
