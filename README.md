@@ -43,6 +43,17 @@ Welche Ausgabe hat das Programm, wenn eine Datei "challenge6" im Homeverzeichnis
 `mv`
 
 ## Challenge 7
+Kopiere die Datei "challenge7" aus dem Verzeichnis "challenge7" in einen neuen Ordner "challenge7.1". Das Programm "challenge7" gibt dir das Passwort
+
+`mkdir, cp`
+
+## Challenge 8
 Wie lautet der Pfad der einzigen Datei mit einer Größe von 7872 Bytes in einem der Unterordner von "challenge7"?
+
+`man, find`
+
+## Challenge 9
+Irgendwo auf dem Server liegt eine Datei, die dem User "betreuer" gehört und 21 Bytes groß ist. Sie enthält das Passwort.
+
 
 `man, find`

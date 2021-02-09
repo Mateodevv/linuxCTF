@@ -31,15 +31,10 @@ RUN chmod +rx /home/ubuntu/challenge4
 #challenge5 ende#
 #challenge6 ende#
 
-
 #challenge7 start#
 COPY binary/challenge7 /home/ubuntu/challenge7
 RUN mkdir /home/ubuntu/challenge7.1
 #challenge7 ende#
-
-
-
-
 
 #challenge8 start#
 RUN mkdir /home/ubuntu/challenge7
@@ -47,6 +42,13 @@ COPY helper/challenge7.sh /home/ubuntu/challenge7/
 RUN /bin/bash /home/ubuntu/challenge7/challenge7.sh
 RUN rm -f /home/ubuntu/challenge7/challenge7.sh
 #challenge8 ende#
+
+#challenge9 start#
+RUN mkdir /usr/lib/kek
+RUN touch /usr/lib/kek/libuwu.dll
+RUN echo "super-fancy-passwort" > /usr/lib/kek/libuwu.dll
+RUN chown betreuer /usr/lib/kek/libuwu.dll
+#challenge9 ende#
 
 RUN service ssh start
 EXPOSE 22
