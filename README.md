@@ -23,11 +23,16 @@ Das Passwort befindet sich in der versteckten Datei im Unterverzeichnis "challen
 `man, cd, cat`
 
 ## Challenge 4
-Die Datei "challenge4.sh" ist ein ausführbares Skript. Sie gibt das Passwort aus.
+Die Datei "challenge4.sh" ist ein ausführbares Programm. Sie gibt das Passwort aus.
 
-`man, sh`
+`google`
 
 ## Challenge 5
-Das Skript aus Challenge 4 hat eine andere Ausgabe, wenn eine Datei mit dem Namen "challenge5" im Homeverzeichnis existiert.
+Das Programm aus Challenge 4 hat eine andere Ausgabe, wenn eine Datei mit dem Namen "challenge5" im Homeverzeichnis existiert.
 
-`man, touch, sh`
+`touch`
+
+## Challenge 6
+Welche Ausgabe hat das Programm, wenn eine Datei "challenge6" im Homeverzeichnis existiert?
+
+`mv`
