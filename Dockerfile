@@ -51,6 +51,14 @@ RUN echo "super-fancy-passwort" > /usr/lib/kek/libuwu.dll
 RUN chown betreuer /usr/lib/kek/libuwu.dll
 #challenge9 ende#
 
+### TEXTVERARBEITUNG ###
+
+#challenge10 start#
+COPY helper/challenge10.sh /home/ubuntu/
+RUN /bin/bash /home/ubuntu/challenge10.sh
+RUN rm -f /home/ubuntu/challenge10.sh
+#challenge10 ende#
+
 RUN service ssh start
 EXPOSE 22
 
