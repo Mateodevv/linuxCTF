@@ -17,7 +17,7 @@ Das Passwort befindet sich in der Datei "challenge1" im Home-Verzeichnis.
 
 `cat`
 
-# Challenge 1A
+## Challenge 1A
 Das Passwort befindet sich in der Datei "challenge1a with spaces" im Home-Verzeichnis.
 
 `cat, man`
@@ -76,3 +76,13 @@ Das Passwort steht in der Datei "challenge10a" neben dem Wort "millionth".
 Die Datei "challenge11" ist gefüllt mit zufälligen Bytes. Irgendwo dazwischen befindet sich das Passwort. Es ist ein human readable String.
 
 `strings, man`
+
+## Challenge 12
+Das Passwort steht in der Datei "challenge12" in der alphabetisch letzten Zeile.
+
+`sort`
+
+## Challenge 13
+Das Passwort befindet sich in der Datei "challenge13" und ist die einzige Zeile, die nur einmal vorkommt.
+
+`sort, uniq, | pipe`

@@ -73,6 +73,14 @@ RUN /bin/bash /home/ubuntu/challenge11.sh
 RUN rm -f /home/ubuntu/challenge11.sh
 #challenge11 ende#
 
+#challenge 12 start#
+COPY helper/challenge12 /home/ubuntu
+#challenge 12 ende#
+
+#challenge 13 ende#
+COPY helper/challenge13 /home/ubuntu
+#challenge 13 ende#
+
 RUN service ssh start
 EXPOSE 22
 
