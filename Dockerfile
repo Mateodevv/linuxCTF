@@ -63,6 +63,10 @@ RUN /bin/bash /home/ubuntu/challenge10.sh
 RUN rm -f /home/ubuntu/challenge10.sh
 #challenge10 ende#
 
+#challenge10a start#
+COPY helper/challenge10a /home/ubuntu/
+#challenge10a ende#
+
 #challenge11 start#
 COPY helper/challenge11.sh /home/ubuntu
 RUN /bin/bash /home/ubuntu/challenge11.sh

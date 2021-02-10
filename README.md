@@ -67,6 +67,11 @@ Die Datei "challenge10" enthält eine Reihe zufälliger Zeilen. Irgendwo dazwisc
 
 `grep, man`
 
+## Challenge 10A
+Das Passwort steht in der Datei "challenge10a" neben dem Wort "millionth".
+
+`grep`
+
 ## Challenge 11
 Die Datei "challenge11" ist gefüllt mit zufälligen Bytes. Irgendwo dazwischen befindet sich das Passwort. Es ist ein human readable String.
 
