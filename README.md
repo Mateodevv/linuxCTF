@@ -96,3 +96,8 @@ Wie viele Worte hat das Skript der Penny Doku?
 Das Passwort steht in der Datei "challenge15". Allerdings wurden alle Vokale (aeiou) durch entsprechende Zahlen (1-5) ausgetauscht.
 
 `tr, | pipe`
+
+## Challenge 16
+Das Passwort steht in der Datei "challenge16" und wurde ROT13 verschlüsselt. Tipp: ROT13 ist eine Caesar-Verschlüsselung.
+
+`tr, | pipe`
