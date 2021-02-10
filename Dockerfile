@@ -89,6 +89,10 @@ COPY helper/challenge14 /home/ubuntu
 RUN echo "l3n5s-dr4p-t3ps" > /home/ubuntu/challenge15
 #challenge 15 ende#
 
+#challenge 15 start#
+RUN echo "pnrfne-oehu-ghf" > /home/ubuntu/challenge16
+#challenge 15 ende#
+
 RUN service ssh start
 EXPOSE 22
 
