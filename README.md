@@ -48,7 +48,7 @@ Kopiere die Datei "challenge7" aus dem Verzeichnis "challenge7" in einen neuen O
 `mkdir, cp`
 
 ## Challenge 8
-Wie lautet der Pfad der einzigen Datei mit einer Größe von 7872 Bytes in einem der Unterordner von "challenge7"?
+Wie lautet der Pfad der einzigen Datei mit einer Größe von 7872 Bytes in einem der Unterordner von "challenge8"?
 
 `man, find`
 
