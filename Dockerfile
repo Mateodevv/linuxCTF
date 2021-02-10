@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN yes | unminimize
-RUN apt update && apt install  openssh-server sudo man-db nano python libpython2.7-dev -y
+RUN apt update && apt install  openssh-server sudo man-db nano python libpython2.7-dev binutils -y
 
 RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 test 
 RUN  echo 'test:test' | chpasswd
@@ -58,6 +58,12 @@ COPY helper/challenge10.sh /home/ubuntu/
 RUN /bin/bash /home/ubuntu/challenge10.sh
 RUN rm -f /home/ubuntu/challenge10.sh
 #challenge10 ende#
+
+#challenge11 start#
+COPY helper/challenge11.sh /home/ubuntu
+RUN /bin/bash /home/ubuntu/challenge11.sh
+RUN rm -f /home/ubuntu/challenge11.sh
+#challenge11 ende#
 
 RUN service ssh start
 EXPOSE 22

@@ -60,5 +60,9 @@ Irgendwo auf dem Server liegt eine Datei, die dem User "betreuer" gehört und 21
 ## Challenge 10
 Die Datei "challenge10" enthält eine Reihe zufälliger Zeilen. Irgendwo dazwischen befindet sich das Passwort. Es beginnt mit dem Wort "flag".
 
-
 `grep, man`
+
+## Challenge 11
+Die Datei "challenge11" ist gefüllt mit zufälligen Bytes. Irgendwo dazwischen befindet sich das Passwort. Es ist ein human readable String.
+
+`strings, man`
