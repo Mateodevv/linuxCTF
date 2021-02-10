@@ -91,3 +91,8 @@ Das Passwort befindet sich in der Datei "challenge13" und ist die einzige Zeile,
 Wie viele Worte hat das Skript der Penny Doku?
 
 `wc, man`
+
+## Challenge 15
+Das Passwort steht in der Datei "challenge15". Allerdings wurden alle Vokale (aeiou) durch entsprechende Zahlen (1-5) ausgetauscht.
+
+`tr, | pipe`
