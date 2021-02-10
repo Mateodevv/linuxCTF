@@ -43,7 +43,7 @@ Welche Ausgabe hat das Programm, wenn eine Datei "challenge6" im Homeverzeichnis
 `mv`
 
 ## Challenge 7
-Kopiere die Datei "challenge7" aus dem Verzeichnis "challenge7" in einen neuen Ordner "challenge7.1". Das Programm "challenge7" gibt dir das Passwort
+Kopiere die Datei "challenge7" aus dem Verzeichnis "challenge7" in einen neuen Ordner "ordner7.1". Das Programm "ordner7" gibt dir das Passwort
 
 `mkdir, cp`
 
