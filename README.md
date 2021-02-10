@@ -17,6 +17,11 @@ Das Passwort befindet sich in der Datei "challenge1" im Home-Verzeichnis.
 
 `cat`
 
+# Challenge 1A
+Das Passwort befindet sich in der Datei "challenge1a with spaces" im Home-Verzeichnis.
+
+`cat, man`
+
 ## Challenge 2
 Welchen Namen hat die Datei im Unterverzeichnis "challenge2"?
 

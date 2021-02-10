@@ -13,6 +13,10 @@ RUN  echo 'betreuer:betreuer' | chpasswd
 RUN echo "password" > /home/ubuntu/challenge1
 #challenge1 ende#
 
+#challenge1a start#
+RUN echo "lehrreiche-leerzeichen" > challenge1a\ with\ spaces
+#challenge1a ende#
+
 #challenge2 start#
 RUN mkdir /home/ubuntu/challenge2
 RUN touch /home/ubuntu/challenge2/password2
