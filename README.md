@@ -86,3 +86,8 @@ Das Passwort steht in der Datei "challenge12" in der alphabetisch letzten Zeile.
 Das Passwort befindet sich in der Datei "challenge13" und ist die einzige Zeile, die nur einmal vorkommt.
 
 `sort, uniq, | pipe`
+
+## Challenge 14
+Wie viele Worte hat das Skript der Penny Doku?
+
+`wc, man`

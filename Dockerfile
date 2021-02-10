@@ -81,6 +81,10 @@ COPY helper/challenge12 /home/ubuntu
 COPY helper/challenge13 /home/ubuntu
 #challenge 13 ende#
 
+#challenge 14 start#
+COPY helper/challenge14 /home/ubuntu
+#challenge 14 ende#
+
 RUN service ssh start
 EXPOSE 22
 
