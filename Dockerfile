@@ -3,8 +3,8 @@ FROM ubuntu:latest
 RUN yes | unminimize
 RUN apt update && apt install  openssh-server sudo man-db nano python libpython2.7-dev binutils -y
 
-RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 test 
-RUN  echo 'test:test' | chpasswd
+RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 prakti 
+RUN  echo 'prakti:prakti' | chpasswd
 
 RUN useradd -rm -d /home/betreuer -s /bin/bash -g root -G sudo -u 1001 betreuer 
 RUN  echo 'betreuer:betreuer' | chpasswd
