@@ -14,7 +14,7 @@ RUN echo "password" > /home/ubuntu/challenge1
 #challenge1 ende#
 
 #challenge1a start#
-RUN echo "lehrreiche-leerzeichen" > challenge1a\ with\ spaces
+RUN echo "lehrreiche-leerzeichen" > /home/ubuntu/challenge1a\ with\ spaces
 #challenge1a ende#
 
 #challenge2 start#
