@@ -19,11 +19,11 @@ RUN echo "lehrreiche-leerzeichen" > challenge1a\ with\ spaces
 
 #challenge2 start#
 RUN mkdir /home/ubuntu/challenge2
-RUN touch /home/ubuntu/challenge2/password2
+RUN touch /home/ubuntu/challenge2/secretfile2
 #challenge2 ende#
 
 #challenge3 start#
-RUN echo "password3" > /home/ubuntu/challenge2/.challenge3
+RUN echo "megasicherespasswort" > /home/ubuntu/challenge2/.challenge3
 #challenge3 ende#
 
 #challenge4 start#
