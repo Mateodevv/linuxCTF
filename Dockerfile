@@ -58,7 +58,7 @@ RUN chown betreuer /usr/lib/kek/libuwu.dll
 ### TEXTVERARBEITUNG ###
 
 #challenge10 start#
-COPY helper/padawan2021.txt /home/ubuntu/
+COPY helper/padawan_2021.txt /home/ubuntu/
 #challenge10 ende#
 
 #challenge10a start#
